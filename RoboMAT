@@ -47,7 +47,7 @@ void setup() {
 }
 
 void loop() {
- 
+ // leer los valores del sensor calibrado y obtener una medida de la posición de la línea
  // read calibrated sensor values and obtain a measure of the line position
   // from 0 to 5000 (for a white line, use readLineWhite() instead)
   uint16_t position = qtr.readLineBlack(sensorValues);
